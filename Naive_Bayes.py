@@ -340,7 +340,7 @@ def main():
 
 
     #the classified test set is then written to a csv file 
-    with open('kwat390.csv', 'w', newline='') as csvfile:
+    with open('Classifications.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['id', 'class'])
         for row in classified:
